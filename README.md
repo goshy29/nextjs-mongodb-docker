@@ -30,10 +30,11 @@ Backend: Contains all server-side code and database logic.
 1. GitHub: https://github.com/goshy29/nextjs-mongodb-docker
 2. Clone the repository: https://github.com/goshy29/nextjs-mongodb-docker.git
 3. Open the project with your code editor(VS Code) and open New Terminal
-4. Start the services in detached mode: docker-compose up -d
-5. Open the application in your browser: http://localhost:3000
-6. To stop services without removing volumes: docker-compose down
-7. To stop and remove volumes (for a fresh start): docker-compose down -v
+4. Ensure Docker is installed on your computer and running
+5. Start the services in detached mode: docker-compose up -d
+6. Open the application in your browser: http://localhost:3000
+7. To stop services without removing volumes: docker-compose down
+8. To stop and remove volumes (for a fresh start): docker-compose down -v
 
 ## Example Data to Enter in the User Form: 
 1. title: What I’ve Learned From CrossFit
